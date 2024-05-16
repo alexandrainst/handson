@@ -6,7 +6,7 @@ The only difference will be the comments here at the top detailing which parts o
 
 In this first example. The goal is to get the code to run on your particular system, and to get a high overview of the code.
 
-So start by running the code and see whether it is able to run successfully or whether it throws an error.
+So start by running the code (**in debug mode**) and see whether it is able to run successfully or whether it throws an error.
 If the code runs successfully then great, you can move on to the second part, if not check the following:
 - Did you remember to download the cats and dogs dataset? if not run /data/download_cats_and_dogs.py
 - Did the code crash because it ran out of memory? In this case go to /examples/config/unet.py and set
