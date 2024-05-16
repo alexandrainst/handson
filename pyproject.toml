@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "learn-ml-1"
+version = "0.1.0"
+description = ""
+authors = ["tueboesen <tue.boesen@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.2.1"
+torchvision = "^0.17.1"
+tqdm = "^4.66.2"
+matplotlib = "^3.8.4"
+kaggle = "^1.6.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
